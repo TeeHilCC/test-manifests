@@ -4,7 +4,7 @@
   <remote name="freescale" fetch="https://github.com/Freescale" />
   <remote name="github-nxp" fetch="https://github.com/nxp-imx" />
 	<!-- Customer custom repo -->
-	<remote name="customer-github" fetch="git@github.com/TeeHilCC" />
+	<remote name="customer-github" fetch="ssh://git@github.com/TeeHilCC" />
 
   <project name="meta-freescale" remote="freescale" path="meta-freescale" revision="c82d4634e7aba8bc0de73ce1dfc997b630051571" upstream="kirkstone" />
   <project name="meta-freescale-3rdparty" remote="freescale" path="meta-freescale-3rdparty" revision="5977197340c7a7db17fe3e02a4e014ad997565ae" upstream="kirkstone" />
