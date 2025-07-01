@@ -1,0 +1,15 @@
+<manifest>
+  <include name="base.xml" />
+
+  <remote name="freescale" fetch="https://github.com/Freescale" />
+  <remote name="github-nxp" fetch="https://github.com/nxp-imx" />
+	<!-- Customer custom repo -->
+	<remote name="customer-github" fetch="https://github.com/TeeHilCC" />
+
+  <project name="meta-freescale" remote="freescale" path="meta-freescale" revision="c82d4634e7aba8bc0de73ce1dfc997b630051571" upstream="kirkstone" />
+  <project name="meta-freescale-3rdparty" remote="freescale" path="meta-freescale-3rdparty" revision="5977197340c7a7db17fe3e02a4e014ad997565ae" upstream="kirkstone" />
+  <project name="meta-freescale-distro" remote="freescale" path="meta-freescale-distro" revision="d5bbb487b2816dfc74984a78b67f7361ce404253" upstream="kirkstone" />
+  <project name="meta-imx" remote="github-nxp" path="meta-imx" revision="refs/tags/rel_imx_5.15.71_2.2.2" upstream="kirkstone-5.15.71-2.2.0" />
+	<!-- Custom project repo -->
+	<project name="meta-test-customer" remote="customer-github" path="meta-test-customer" revision="409cfd2d7cc3c0f5d87b55ddf72a0d6702ff38d3" />
+</manifest>

@@ -1,0 +1,17 @@
+<manifest>
+  <default revision="refs/heads/master" remote="crosscontrol" sync-j="4"/>
+  <remote name="crosscontrol" fetch="git@bitbucket.org:crosscontrol"/>
+  <remote name="github" fetch="https://github.com" />
+  <remote name="yoctoproject" fetch="https://git.yoctoproject.org/git" />
+
+  <project name="meta-qt5/meta-qt5" remote="github" path="meta-qt5" revision="ae8a97f79364bed1abc297636f7933d0e35f22be" />
+  <project name="rauc/meta-rauc" remote="github" path="meta-rauc" revision="b5fc74e4c94c2f0a0ec92f2283168125a723c6bf" upstream="kirkstone" />
+
+  <!-- Yocto/Openembedded related stuff -->
+  <project name="openembedded/meta-openembedded" remote="github" path="meta-openembedded" revision="f8dddbfcbfe502cb71375a7a907e61a92e8d4474" upstream="kirkstone" />
+  <project name="crosscontrol-open-source/meta-security" remote="github" path="meta-security" revision="b9cf9cd639bc8d1b4828eb0bd012b71486d35176" upstream="kirkstone" />
+  <project name="crosscontrol-open-source/meta-virtualization" remote="github" path="meta-virtualization" revision="426530794bfc0df686566beed50e245f40565d6c" upstream="kirkstone" />
+  <!-- kirkstone-4.0.25 release -->
+  <project name="yoctoproject/poky" remote="github" path="poky" revision="b5aa03f336c121269551f9e7baed4c677c76bb39" upstream="kirkstone" />
+
+</manifest>
